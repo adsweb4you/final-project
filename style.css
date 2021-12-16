@@ -1,0 +1,142 @@
+
+nav{
+    background-color: #e5eef0;
+    height: 44px;
+   
+}
+.subnav a{
+    color: #93a1a7;
+    text-decoration: none;
+    font-size: 13px;
+    padding-top: 13px;
+    display: inline-block;
+    
+    
+}
+.info a{
+    margin-left: 46px;
+}
+#mobile{
+    margin-right: 4px;
+}
+.navbar{
+    top: 42px;
+    height: 80px;
+}
+.contact-us{
+    border: 2px solid black;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 35px;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    border-top: 0;
+    border-bottom: 0;
+    /* opacity: .5; */
+    transition: opacity .6s ease;
+    border: 4px solid #ffff;
+    border-radius: 50%;
+}
+.w-100 {
+    width: 100%!important;
+    height: 750px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 340px;
+    left: 15%;
+    /* padding-top: 1.25rem; */
+    /* padding-bottom: 1.25rem; */
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h5{
+    font-size: 59px;
+}
+
+[data-bs-target="#carouselExampleIndicators"] img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transform: all 1.5s;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    bottom: 50px;
+}
+
+ [data-bs-target="#carouselExampleIndicators"]:hover img{
+    opacity: 1;
+} 
+
+[data-bs-target="#carouselExampleIndicators"]  i{
+    position: absolute;
+    color: white;
+    left: 50%;
+    bottom: 50px;
+}
+
+.lorem{
+    font-size: 14px;
+    color: #55595f;
+}
+.bussines{
+width: 67px;
+height: 67px;
+font-size: 60px;
+color: white;
+justify-content: center;
+align-items: center;
+background-color: #b2b6b8;
+transition: all 1s ease;
+
+}
+.bussines:hover{
+    background-color: #f7941d; 
+}
+.tt{
+    font-size: 20px;
+    color: #23282f;
+    padding-left: 20px;
+}
+.tt2{
+    font-size: 10px;
+    
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid white;
+    border-radius: .25rem;
+}
+
+
+
+@media (min-width: 992px){
+
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 1140px;
+    }
+}
